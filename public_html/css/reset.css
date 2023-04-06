@@ -1,0 +1,56 @@
+@font-face { 
+	font-family: 'Recipekorea'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') 
+	format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li {
+    list-style: none;
+}
+
+button,
+input {
+    cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+option:focus {
+    outline:none!important;
+}
+
+input {
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#content {
+    width: 1060px;
+    margin: 50px auto;
+	min-height: 100%;
+}
+
+@media screen and (max-width:1480px) {
+	#nav_wrap {
+		display: none;
+	}
+}

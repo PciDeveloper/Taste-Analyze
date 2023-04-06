@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체험넷</title>
+    <link rel="stylesheet" href="/html/css/reset.css">
+    <link rel="stylesheet" href="/html/css/index.css">
+    <link rel="stylesheet" href="/html/css/sign.css">
+    <link rel="stylesheet" href="/html/css/subpage_2.css">
+	<link rel="stylesheet" href="/html/css/product_detail.css">
+    <link rel="stylesheet" href="/html/css/booking.css">
+	<link rel="stylesheet" href="/html/css/mypage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="/html/js/jquery-1.12.1.min.js"></script>
+    <script src="/html/js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!--헤더-->
+    <header>
+        <div id="header_wrap">
+            <div class="header">
+                <h1 class="logo">
+                    <a href="#"><img src="/html/img/icon/logo.png" alt="로고"></a>
+                </h1>
+                <div class="log_wrap">
+                    <ul>
+                        <li class="signup"><a href="#">로그인</a></li>
+                        <li class="signin"><a href="#">회원가입</a></li>
+                        <li class="kakao_info"><a href="#">카카오톡문의</a></li>
+                        <li class="booking_info"><a href="#">예약방법안내</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--네비게이션바-->
+    <div id="nav_wrap">
+        <div class="align">
+            <div class="call_wrap">
+                <img src="/html/img/icon/call.png" alt="문의전화">
+                <span>1599-5757</span>
+            </div>
+            <div class="bank_wrap">
+                <img src="/html/img/icon/bank.png" alt="계좌안내">
+                <span class="bank_name">카카오뱅크</span>
+                <p>3333-8282-3831</p>
+                <span class="bank_user">예금주 : 체험넷</span>
+            </div>
+            <div class="customer_wrap">
+                <img src="/html/img/icon/customer.png" alt="고객상담">
+                <p>고객센터</p>
+                <ul>
+                    <li><a href="#">알려드려요</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                    <li><a href="#">1:1문의</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--컨텐츠-->
+    <div id="content">
+        <!--유저설정영역-->
+        <div class="user_setting">
+            <div class="left_setting">
+                <img src="/html/img/image/person2.png" alt="유저">
+                <div>
+                    <p>해피누나님 안녕하세요!</p>
+                    <p>happynuna@gmail.com</p>
+                </div>    
+            </div>
+            <div class="right_setting">
+                <ul>
+                    <li><input type="button" value="계정설정"></li>
+                    <li><input type="button" value="비밀번호변경"></li>
+                    <li><input type="button" value="로그아웃"></li>
+                </ul>
+            </div>            
+        </div>
+        <!--나의예약-->
+        <div class="mybooking_wrap">
+            <div class="mybooking">
+                <ul>
+                    <li>나의예약</li>
+                </ul>
+            </div>
+            <div class="booking_all">
+                <ul>
+                    <li><a href="#">전체내역</a></li>
+                    <li>|</li>
+                    <li><a href="#">체험완료</a></li>
+                    <li>|</li>
+                    <li><a href="#">취소내역</a></li>
+                </ul>
+            </div>
+            <div class="booking_process">
+                <ul>
+                    <li>접수준비</li>
+                    <li>2</li>
+                </ul>
+                <ul>
+                    <li>입금대기</li>
+                    <li>2</li>
+                </ul>
+                <ul>
+                    <li>결제완료</li>
+                    <li>5</li>
+                </ul>
+            </div>		
+			<!--나의예약 상세리스트-->
+			<div class="booking_list_wrap">
+				<div class="booking">
+					<div class="booking_img">
+						<img src="/html/img/image/place3.png" alt="강릉"></li>
+					</div> 
+					<div class="booking_list">
+						<p>[강릉] 강릉마리나 헤밍웨이 요트와 함께시원한 요트세일링</p>
+					</div>    
+					<div class="booking_icon">
+						<div>
+							<ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>                            
+							</ul>
+							<ul class="booking_icon_txt">                        
+								<li>장소</li>
+								<li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+								<li>4인이하</li>                            
+							</ul>
+						</div>
+					</div>     
+					<div class="booking_bt">  
+						<ul>
+							<li><button>접수취소</button></li>
+							<li><button>접수완료</button></li>
+						</ul>
+					</div>
+				</div>   
+				<div class="booking">
+					<div class="booking_img">
+						<img src="/html/img/image/place3.png" alt="강릉"></li>
+					</div> 
+					<div class="booking_list">
+						<p>[강릉] 강릉마리나 헤밍웨이 요트와 함께시원한 요트세일링</p>
+					</div>    
+					<div class="booking_icon">
+						<div>
+							<ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>                            
+							</ul>
+							<ul class="booking_icon_txt">                        
+								<li>장소</li>
+								<li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+								<li>4인이하</li>                            
+							</ul>
+						</div>
+					</div>     
+					<div class="booking_bt">  
+						<ul>
+							<li><button>접수취소</button></li>
+							<li><button>접수완료</button></li>
+						</ul>
+					</div>
+				</div>  
+				<div class="booking">
+					<div class="booking_img">
+						<img src="/html/img/image/place3.png" alt="강릉"></li>
+					</div> 
+					<div class="booking_list">
+						<p>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>
+					</div>    
+					<div class="booking_icon">
+						<div>
+							<ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>                            
+							</ul>
+							<ul class="booking_icon_txt">                        
+								<li>장소</li>
+								<li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+								<li>4인이하</li>                            
+							</ul>
+						</div>
+					</div>     
+					<div class="booking_bt">  
+						<ul>
+							<li><button>접수취소</button></li>
+							<li><button>접수완료</button></li>
+						</ul>
+					</div>
+				</div>  
+				<div class="booking">
+					<div class="booking_img">
+						<img src="/html/img/image/place3.png" alt="강릉"></li>
+					</div> 
+					<div class="booking_list">
+						<p>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>
+					</div>    
+					<div class="booking_icon">
+						<div>
+							<ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>                            
+							</ul>
+							<ul class="booking_icon_txt">                        
+								<li>장소</li>
+								<li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+								<li>4인이하</li>                            
+							</ul>
+						</div>
+					</div>     
+					<div class="booking_bt">  
+						<ul>
+							<li><button>접수취소</button></li>
+							<li><button>접수완료</button></li>
+						</ul>
+					</div>
+                </div>  
+                <div class="mypage_bt">
+                    <a href="#" class="bt_prev"><img src="/html/img/icon/notice_prev.png" alt="첫페이지"></a>
+                    <a href="#" class="bt_next"><img src="/html/img/icon/notice_next.png" alt="마지막페이지"></a>
+                </div> 
+                <!--찜한체험-->
+				<div class="mybooking">
+					<ul>
+						<li>찜한 체험</li>
+					</ul>
+				</div> 
+				 <div id="category_price">
+                    <div class="price_wrap">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <img src="/img/image/place1.png" alt="강릉">
+                                    </div>
+                                    <p class="tag">#일상#여름#바닷가</p>
+                                    <a href="#">
+                                        <p class="title">[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>                        
+                                    <span class="price1">56,000원</span>
+                                    <span class="price2">70,000원</span>
+                                    <img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <img src="/img/image/place1.png" alt="강릉">
+                                    </div>
+                                    <p class="tag">#일상#여름#바닷가</p>
+                                    <a href="#">
+                                        <p class="title">[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>                 
+                                    <span class="price1">56,000원</span>
+                                    <span class="price2">70,000원</span>
+                                    <img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <img src="/img/image/place1.png" alt="강릉">
+                                    </div>
+                                    <p class="tag">#일상#여름#바닷가</p>
+                                    <a href="#">
+                                        <p class="title">[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>                       
+                                    <span class="price1">56,000원</span>
+                                    <span class="price2">70,000원</span>
+                                    <img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <img src="/img/image/place1.png" alt="강릉">
+                                    </div>
+                                    <p class="tag">#일상#여름#바닷가</p>
+                                    <a href="#">
+                                        <p class="title">[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>                         
+                                    <span class="price1">56,000원</span>
+                                    <span class="price2">70,000원</span>
+                                    <img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mypage_bt">
+                        <a href="#" class="bt_prev"><img src="/html/img/icon/notice_prev.png" alt="첫페이지"></a>
+                        <a href="#" class="bt_next"><img src="/html/img/icon/notice_next.png" alt="마지막페이지"></a>
+                    </div>
+                </div>    
+				<!--나의리뷰-->
+				<div class="mybooking">
+					<ul>
+						<li>나의리뷰</li>
+					</ul>
+                </div> 
+                <div class="booking_reiew_wrap">
+                    <div class="booking_review">
+                        <div class="booking_img">
+                            <img src="/html/img/image/place3.png" alt="강릉"></li>
+                        </div> 
+                        <div class="booking_list">
+                            <p>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>
+                        </div>    
+                        <div class="booking_icon">
+                            <div>
+                                <ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>   
+                                </ul>
+                                <ul class="booking_icon_txt">                        
+								<li>장소</li>
+								<li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+								<li>4인이하</li>  
+                                </ul>
+                            </div>
+                        </div>     
+                        <div class="booking_reivew_bt">  
+                            <button>리뷰작성</button>
+                        </div>
+                        <div class="review_reply">
+							<ul class="modify_bt">
+								<li><button>수정</button></li>	
+								<li><button>삭제</button></li>
+							</ul>
+                            <p>너무나도 힐링하기 좋은 시간이었어요. 구성이 알찬 당일치기 여행이라 일상에 지친 분들께 추천하고 싶어요.
+                                강사님들도 친절하고 재미있으시고 특히 매니저님 완전 착하심ㅠ 제 친구를 구해주셔서 감사해요!! ㅋㅋ 캡틴님도 대원들 모두 꼼꼼히 챙겨주셔서 
+                                진짜 행복한 여행이었어요!
+                            </p>
+                            <p class="reply_date">2020.07.21 19:00 작성완료</p>
+                        </div>
+                    </div>  
+                    <div class="booking_review">
+                        <div class="booking_img">
+                            <img src="/html/img/image/place3.png" alt="강릉"></li>
+                        </div> 
+                        <div class="booking_list">
+                            <p>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</p>
+                        </div>    
+                        <div class="booking_icon">
+                            <div>
+                                <ul>                        
+								<li><img src="/html/img/icon/map.png" alt="장소"></li>
+								<li><img src="/html/img/icon/calendar.png" alt="날짜"></li>
+								<li><img src="/html/img/icon/user.png" alt="인원"></li>   
+                                </ul>
+                                <ul class="booking_icon_txt">                        
+                                    <li>장소</li>
+                                    <li>2020/7/18(토)~<br>2020/7/19(일)&nbsp;</li>
+									<li>4인이하</li>  
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="booking_reivew_bt">  
+                            <li><button class="write_done">작성완료</button></li>
+                        </div>
+                        <div class="review_reply">
+							<ul class="modify_bt">
+								<li><button>수정</button></li>	
+								<li><button>삭제</button></li>
+							</ul>
+                            <p>너무나도 힐링하기 좋은 시간이었어요. 구성이 알찬 당일치기 여행이라 일상에 지친 분들께 추천하고 싶어요.
+                                강사님들도 친절하고 재미있으시고 특히 매니저님 완전 착하심ㅠ 제 친구를 구해주셔서 감사해요!! ㅋㅋ 캡틴님도 대원들 모두 꼼꼼히 챙겨주셔서 
+                                진짜 행복한 여행이었어요!
+                            </p>
+                            <p class="reply_date">2020.07.21 19:00 작성완료</p>
+                        </div>
+                    </div> 
+                    <div class="mypage_bt">
+                        <a href="#" class="bt_prev"><img src="/html/img/icon/notice_prev.png" alt="첫페이지"></a>
+                        <a href="#" class="bt_next"><img src="/html/img/icon/notice_next.png" alt="마지막페이지"></a>
+                    </div>
+                </div>     
+                <!--나의문의-->
+                <div class="mybooking">
+                    <ul>
+                        <li>나의문의</li>
+                    </ul>
+                </div> 
+                <div class="my_ask_wrap">
+                    <div class="ask_img">
+                        <img src="/html/img/image/place3.png" alt="강릉"></li>
+                    </div> 
+                    <div class="ask_list">
+                        <h3>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</h3>
+                        <p>몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요? 
+                            시간은 얼마나 소요되나요? 몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요?
+                        </p>
+                        <p class="ask_date">2020.07.21 22:54 작성 </p>
+                    </div>   
+                </div> 
+                <div class="my_ask_wrap">
+                    <div class="ask_img">
+                        <img src="/html/img/image/place3.png" alt="강릉"></li>
+                    </div> 
+                    <div class="ask_list">
+                        <h3>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</h3>
+                        <p>몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요? 
+                            시간은 얼마나 소요되나요? 몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요?
+                        </p>
+                        <p class="ask_date">2020.07.21 22:54 작성 </p>
+                    </div>   
+                </div>     
+                <div class="my_ask_wrap">
+                    <div class="ask_img">
+                        <img src="/html/img/image/place3.png" alt="강릉"></li>
+                    </div> 
+                    <div class="ask_list">
+                        <h3>[강릉] 강릉마리나 헤밍웨이 요트와 함께 시원한 요트세일링</h3>
+                        <p>몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요? 
+                            시간은 얼마나 소요되나요? 몇시에 출발하나요 ? 아이와 함께 동반할 수 있나요? 식사는 어떻게 제공되나요?
+                        </p>
+                        <p class="ask_date">2020.07.21 22:54 작성 </p>
+                    </div>   
+                </div>
+                <div class="mypage_bt">
+                    <a href="#" class="bt_prev"><img src="/html/img/icon/notice_prev.png" alt="첫페이지"></a>
+                    <a href="#" class="bt_next"><img src="/html/img/icon/notice_next.png" alt="마지막페이지"></a>
+                </div>
+            </div>    
+		</div>
+	</div>
+</body>
+</html>

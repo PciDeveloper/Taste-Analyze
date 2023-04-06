@@ -1,0 +1,185 @@
+/*게시판 뷰*/
+.notice_view_wrap {
+	margin: 50px 0 80px 0;
+}
+.notice_view_wrap .notice_view {
+	width: 1090px;
+	border-top: 2px solid #93CFCF; 
+}
+
+.notice_view_wrap .notice_view li {
+	padding: 16px 0; 
+	font-size: 16px; 
+	font-weight: 400; 
+}
+
+.notice_view_wrap .notice_view .head {
+	border-bottom: 1px solid #93CFCF; 
+	font-size: 18px; 
+	font-weight: 500;
+	padding-left: 30px;
+}
+
+.notice_view_wrap .notice_view li .head > div { 
+    width: 200px;
+	text-align: right; 
+	color: #000; 
+}
+
+.notice_view_wrap .notice_view li > div { 
+	width: 150px;
+	display: inline-block; 
+	vertical-align: middle; 
+	text-align: right; 
+}
+
+.notice_view_wrap .notice_view .title {
+	width: 700px; 
+	font-size: 20px;
+	text-align:left;
+	color: #000; 
+}
+
+.notice_view_wrap .notice_view .date {
+	margin-left: 30px;
+}
+
+.notice_view_wrap .notice_content {
+    height: 400px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.notice_view_wrap .notice_content p {
+	padding-left: 30px;
+}
+
+.notice_view_wrap .notice_content .notice_file {
+	width: 100%;
+}
+
+.notice_view_wrap .notice_content .notice_file img,
+.notice_view_wrap .notice_content .notice_file button {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.notice_view_wrap .notice_content .notice_file img {
+	width: 15px;
+	height: 15px;
+}
+
+.notice_view_wrap .notice_content button {
+	font-size: 11px;
+	border:none;
+	background: transparent;
+}
+
+/*답글뷰영역*/
+.notice_view_wrap .notice_view .comment_view {
+	position: relative;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.notice_view_wrap .notice_view .comment_view .name,
+.notice_view_wrap .notice_view .comment_view .date {
+    display: inline-block;
+    vertical-align: right;
+}
+
+.notice_view_wrap .notice_view .comment_view .name {
+    font-size: 20px;
+	font-weight: 500;
+}
+
+.notice_view_wrap .notice_view .comment_view .date {
+    font-size: 15px;
+	margin-left: 15px;
+}
+
+.notice_view_wrap .notice_view .comment_view .modify_bt {
+	position: absolute;
+	top: 18px;
+	right: 30px;
+}
+
+.notice_view_wrap .notice_view .comment_view .modify_bt li {
+	display:inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.notice_view_wrap .notice_view .comment_view button {
+	border:none;
+	background: transparent;
+}
+
+.notice_view_wrap .notice_view .comment_view p:last-child {
+	fonr-siz: 15px;
+	margin-top: 15px;	
+}
+
+/*답글 영역*/
+.notice_view_wrap .notice_view .comment_wrap {
+	width: 1060px;
+	font-size: 0;
+}
+
+.notice_view_wrap .notice_view .comment_wrap li {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.notice_view_wrap .notice_view .comment_wrap .comment_write {
+
+}
+
+.notice_view_wrap .notice_view .comment_wrap .comment_write textarea {
+	width: 940px;
+    height: 110px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left; 
+	padding: 30px 0 0 30px;
+	background-color: #F2F2F2;
+	box-sizing: border-box;    
+	resize:none;
+	border:none;
+}
+
+.notice_view_wrap .notice_view .comment_wrap button {
+    width: 120px;
+    height: 110px;
+    font-size: 20px;
+    font-weight: 600;
+	color: #fff;
+    text-align: center; 
+	background-color: #93CFCF;
+	border:none;
+}
+
+
+/*수정삭제 버튼*/
+.notice_view_wrap .bt_wrap {
+	margin: 80px 0;
+	text-align: center;
+}
+
+.notice_view_wrap .bt_wrap input {
+	width: 180px;
+	height: 60px;
+	background: #93CFCF;
+	border-radius: 30px;
+	border:0;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.notice_view_wrap .bt_wrap input:first-child {
+	margin-left: 0;
+}
+
+
+
+

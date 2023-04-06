@@ -1,0 +1,458 @@
+/*booking_main*/
+#booking_main {
+    margin-top: 80px;
+}
+#booking_main .booking_img,
+#booking_main .booking_txt {
+    display: inline-block;
+	vertical-align:top;
+}
+
+#booking_main .booking_img,
+#booking_main .booking_img img {
+	width: 530px;
+    height: 400px;
+}
+
+#booking_main .booking_txt {
+	margin-left: 40px;
+}
+
+/*booking_txt 제품상세페이지 -메인설명*/
+
+#booking_main .booking_txt  button {
+    border:none;
+float:right;
+}
+
+#booking_main .booking_txt .tag {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+
+#booking_main .booking_txt .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+	margin-top: 10px;
+}
+
+#booking_main .booking_txt .booking_icon {
+    margin-top: 30px;
+}
+
+#booking_main .booking_txt .booking_icon ul li {
+    margin-top: 8px;
+}
+
+#booking_main .booking_txt .booking_icon ul li img,
+#booking_main .booking_txt .booking_icon ul li p {
+    display: inline-block;
+	vertical-align: middle;
+}
+
+#booking_main .booking_txt .booking_icon ul li p {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/*제품상세페이지 -가격*/
+#booking_main .booking_txt .booking_icon .booking_price {
+    float: righta
+}
+#booking_main .booking_txt .booking_icon .booking_price ul li {
+    display: inline-block;
+}
+
+#booking_main .booking_txt .booking_icon .booking_price ul li:first-child {
+    font-size: 15px;
+    color: #B4B0B0;
+    text-decoration: line-through;
+}
+
+#booking_main .booking_txt .booking_icon .booking_price ul li:last-child {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
+	letter-spacing: -1px;
+    color: #58A9B5;
+}
+
+/*제품상세페이지 -예약버튼*/
+
+#booking_main .booking_txt .booking_icon .booking_bt {
+    clear: both;
+    float: right;
+    padding-top: 6px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt > div {
+    display: inline-block;
+	vertical-align:middle;
+}
+#booking_main .booking_txt .booking_icon .booking_bt > div:last-child {
+    margin-left: 10px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .heart {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #D5EAEF;
+    border-radius: 10px;
+    background: url(/html/img/icon/heart.png) no-repeat 50% 50% /30px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .booking {
+    width: 200px;
+    height: 60px;
+	text-align:center;
+    background-color: #D5EAEF;
+    border-radius: 10px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .booking p {
+    font-size: 25px;
+    font-weight: 600;
+	margin-top: 11px;
+}
+
+
+/*booking_main*/
+#booking_main {
+    margin-top: 80px;
+}
+#booking_main .booking_img,
+#booking_main .booking_txt {
+    display: inline-block;
+	vertical-align:top;
+	width: 500px;
+
+}
+
+#booking_main .booking_img,
+#booking_main .booking_img img {
+	width: 480px;
+    height: 400px;
+}
+
+#booking_main .booking_txt {
+	margin-left: 40px;
+}
+
+/*booking_txt 제품상세페이지 -메인설명*/
+#booking_main .booking_txt .tag {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+
+#booking_main .booking_txt .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+	margin-top: 10px;
+}
+
+#booking_main .booking_txt .booking_icon {
+    margin-top: 30px;
+}
+
+#booking_main .booking_txt .booking_icon ul li {
+    margin-top: 8px;
+}
+
+#booking_main .booking_txt .booking_icon ul li img,
+#booking_main .booking_txt .booking_icon ul li p {
+    display: inline-block;
+	vertical-align: middle;
+}
+
+#booking_main .booking_txt .booking_icon ul li p {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/*제품상세페이지 -가격*/
+#booking_main .booking_txt .booking_icon .booking_price {
+    float: right
+}
+#booking_main .booking_txt .booking_icon .booking_price ul li {
+    display: inline-block;
+}
+
+#booking_main .booking_txt .booking_icon .booking_price ul li:first-child {
+    font-size: 15px;
+    color: #B4B0B0;
+    text-decoration: line-through;
+}
+
+#booking_main .booking_txt .booking_icon .booking_price ul li:last-child {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
+	letter-spacing: -1px;
+    color: #58A9B5;
+}
+
+/*제품상세페이지 -예약버튼*/
+
+#booking_main .booking_txt .booking_icon .booking_bt {
+    clear: both;
+    float: right;
+    padding-top: 6px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt > div {
+    display: inline-block;
+	vertical-align:middle;
+}
+#booking_main .booking_txt .booking_icon .booking_bt > div:last-child {
+    margin-left: 10px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .heart {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #D5EAEF;
+    border-radius: 10px;
+    background: url(/html/img/icon/heart.png) no-repeat 55% 60% /30px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .booking {
+    width: 200px;
+    height: 60px;
+	text-align:center;
+    background-color: #D5EAEF;
+    border-radius: 10px;
+}
+
+#booking_main .booking_txt .booking_icon .booking_bt .booking p {
+    font-size: 25px;
+    font-weight: 600;
+	margin-top: 11px;
+}
+
+/*booking_notice 제품상세페이지*/
+
+#content .booking_notice {
+    clear:both;
+    margin-top: 80px;
+}
+
+#content .booking_notice .booking_item {
+    margin-top: 80px;
+}
+
+#content .booking_notice .booking_item span {
+	font-size: 15px;
+}
+
+#content .booking_notice .detail_booking1,
+#content .booking_notice .detail_booking2,
+#content .booking_notice .detail_booking3,
+#content .booking_notice .detail_booking4 {
+    padding-bottom: 5px;
+    margin-top: 100px;
+    border-bottom: 2px solid #B4B0B0;
+}
+
+
+#content .booking_notice .detail_booking1 > div,
+#content .booking_notice .detail_booking2 > div,
+#content .booking_notice .detail_booking3 > div,
+#content .booking_notice .detail_booking > div {
+	margin: 50px 0;
+}
+
+#content .booking_notice .detail_booking1 ul,
+#content .booking_notice .detail_booking2 ul,
+#content .booking_notice .detail_booking3 ul,
+#content .booking_notice .detail_booking4 ul {
+	text-align:left;
+}
+
+#content .booking_notice .detail_booking1 ul li,
+#content .booking_notice .detail_booking2 ul li,
+#content .booking_notice .detail_booking3 ul li,
+#content .booking_notice .detail_booking4 ul li {
+	position: relative;
+    display: inline-block;
+    font-size: 25px;
+	font-weight: 600;
+    color: #B4B0B0;
+	margin-left: 25px;
+}
+
+#content .booking_notice .detail_booking1 li:first-child,
+#content .booking_notice .detail_booking2 li:first-child,
+#content .booking_notice .detail_booking3 li:first-child,
+#content .booking_notice .detail_booking4 li:first-child {
+	margin-left: 0;
+}
+
+#content .booking_notice .detail_booking1 li:first-child,
+#content .booking_notice .detail_booking2 li:nth-child(2),
+#content .booking_notice .detail_booking3 li:nth-child(3),
+#content .booking_notice .detail_booking4 li:last-child {
+    color: #58A9B5;
+}
+
+#content .booking_notice .detail_booking1 li:first-child::after,
+#content .booking_notice .detail_booking2 li:nth-child(2)::after,
+#content .booking_notice .detail_booking3 li:nth-child(3)::after,
+#content .booking_notice .detail_booking4 li:last-child::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 95px;
+    height: 5px;
+    background: #58A9B5;
+}
+
+/*리뷰작성 및 문의하기버튼*/
+#content .booking_notice button,
+#content .booking_notice button {
+    float: right;
+    width: 120px;
+    height: 50px;
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight:600;
+	color: #Fff;
+    background-color: #58A9B5;
+    border-radius: 30px;
+    border:none;
+}
+
+/*상세페이지-리뷰작성*/
+
+#content .booking_notice .review_wrap,
+#content .booking_notice .ask_wrap {
+    clear:both;
+}
+
+#content .booking_notice .review_wrap ul li p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content .booking_notice .review_wrap p:last-child {
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+#content .booking_notice .review_wrap .review {
+    margin-top: 20px;
+	padding-left: 77px;
+}
+
+#content .booking_notice .review_wrap span
+#content .booking_notice .ask_wrap span {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#content .booking_notice .review_txt > img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+#content .booking_notice .review_txt > img,
+#content .booking_notice .review_wrap .user_profile {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#content .booking_notice .review_wrap .user_profile {
+	margin-left: 15px;
+}
+
+#content .booking_notice .review_wrap ul li{
+	padding: 50px 0 50px 0;
+    border-bottom: 2px solid #DCDBDB;
+}
+
+#content .booking_notice .review_wrap .review_txt {
+	margin: 0 80px;
+}
+
+#content .booking_notice .review_wrap ul li:first-child {
+    padding: 0 0 50px 0;
+}
+
+#content .booking_notice .review_wrap .reveiw_img_wrap {
+	margin-top: 20px;
+	padding-left:60px;
+}
+#content .booking_notice .review_wrap .reveiw_img_wrap img {
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+/*상세페이지-리뷰작성-프로필이미지*/
+#content .booking_notice .review_wrap ul li p:first-child,
+#content .booking_notice .ask_wrap ul li p:first-child {
+    position: relative;
+}
+
+/*상세페이지-체험문의*/
+/*프로필이미지*/
+#content .booking_notice .ask_wrap {
+	margin: 0 80px;
+}
+
+#content .booking_notice .ask_wrap .reply {
+    width: 900px;
+    height: 150px;
+	background: #f2f2f2;
+	border-radius: 30px;
+    margin: 50px 0 0 80px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#content .booking_notice .ask_wrap ul li {
+	padding: 10px 0 30px 0;
+	box-sizing: border-box;
+}
+
+#content .booking_notice .ask_wrap p:first-child,
+#content .booking_notice .reply p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content .booking_notice .ask_wrap ul li p:nth-child(2) {
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+#content .booking_notice .secret,
+#content .booking_notice .reply .secret {
+    margin: 10px 0 0 90px;
+	font-size: 15px;
+}
+
+#content .booking_notice .ask_wrap .ask_profile > img,
+#content .booking_notice .ask_wrap .reply > img {
+	width: 60px;
+	height: 60px;
+	background-color: #f2f2f2;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+#content .booking_notice .ask_wrap .reply > img,
+#content .booking_notice .ask_wrap .user_profile {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#content .booking_notice .ask_wrap .user_profile {
+	margin-left: 30px;
+}

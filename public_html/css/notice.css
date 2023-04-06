@@ -1,0 +1,222 @@
+
+#content {
+    width: 1060px;
+    margin: 50px auto;
+	min-height: 100%;
+}
+
+#content > div {
+	text-align:left;
+}
+
+/*체험업로드게시판*/
+#content h1 {
+    font-size:30px;
+}
+
+#content .notice_wrap input:first-child {
+	width: 900px;
+}
+
+/*비밀글 체크박스*/
+#content .notice_wrap input:first-child,
+#content .notice_wrap .secret_wrap {
+	display: inline-block;
+}
+
+#content .notice_wrap .secret_wrap {
+	 width: 150px;
+}
+
+#content .notice_wrap .secret_wrap {
+	text-align: right;
+}
+
+#content .notice_wrap .secret_wrap input {
+	display: none;
+}
+
+.notice_wrap input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.notice_wrap #secret_check+ label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.notice_wrap input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.notice_wrap input[type="checkbox"]:checked + label span {
+    background: url(/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+#content .notice_wrap input {
+    display: block;
+    width: 1060px;
+    height: 50px;
+    border: 2px solid #DCDBDB;
+    border-radius: 15px;
+	margin-top: 10px;
+}
+
+#content .notice_wrap input::placeholder {
+    font-size: 18px;
+    color: #DCDBDB;
+}
+
+#content .notice_wrap textarea {
+    width: 1060px;
+    height: 400px;
+	font-size: 18px;
+    color: #DCDBDB;
+    border: 2px solid #DCDBDB;
+    border-radius: 15px;
+    resize: none;
+	margin-top: 10px;
+	padding: 10px 0 0 30px;
+    box-sizing: border-box;
+}
+
+/*에디터 편집*/
+#smart_editor2 {
+	width: 1060px !important;
+}
+
+#smart_editor2 #smart_editor2_content {
+	width: 1060px !important;
+	font-family: 'Noto Sans KR', sans-serif;
+    border: 2px solid #DCDBDB;
+}
+
+/*체험업로드게시판 - 아이콘*/
+#content .write_icon {
+    margin-top: 30px;
+}
+
+#content .write_icon ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*체험업로드게시판 - 사진*/
+#content .add_photo {
+    margin: 30px 0;
+}
+
+#content .add_photo ul li {
+	position: relative;
+	display:inline-block;
+	margin-left:10px;
+	text-align: center;
+}
+#content .add_photo img {
+    width: 130px;
+    height:130px;
+}
+
+#content .add_photo li img:last-child {
+	width: 10px;
+	height: 10px;
+}
+
+#content .add_photo .main {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 40px;
+	height: 25px;
+	background: #fff;
+    border-radius: 10px;
+	font-size: 15px;
+	border:none;
+}
+
+#content .add_photo .delete_bt {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+	border: none;
+	background: transparent;
+}
+
+
+/*체험업로드게시판 -파일*/
+#content .add_file ul{
+    margin-top: 30px;
+}
+
+#content .add_file ul li {
+	margin: 10px 0 10px 20px;
+}
+
+#content .add_file img,
+#content .add_file span {
+	dipslay: inline-block;
+	vertical-align: middle;
+}
+
+#content .add_file span {
+	margin-left: 10px;
+}
+
+#content .add_file ul li:first-child {
+	margin-left; 0;
+}
+
+#content .add_file ul li button {
+	position:relative;
+	border:none;
+	margin-left:10px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+#content .add_file ul li img:last-child {
+	width: 10px;
+	height: 10px;
+}
+
+/*체험업로드게시판 -버튼*/
+#content .write_bt {
+    margin-top: 50px;
+}
+
+#content .write_bt ul {
+	text-align: center;
+}
+
+#content .write_bt ul li{
+    display: inline-block;
+    margin:0 0 80px 10px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+#content .write_bt button {
+    width: 160px;
+    height: 60px;
+	color: #fff;
+    font-size: 20px;
+    background-color: #93CFCF;
+    border-radius: 30px;
+	border:none;
+}

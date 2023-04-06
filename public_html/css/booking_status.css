@@ -1,0 +1,188 @@
+/*구분타이틀*/
+#content .reservation_detail_wrap {
+	position: relative;
+}
+
+#content .reservation_detail_wrap .booking_item span {
+	font-size: 15px;
+}
+
+#content .reservation_detail_wrap .reservation_detail {
+    margin-top: 80px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #B4B0B0;
+}
+
+#content .reservation_detail_wrap .reservation_detail {
+	width: 1060px;
+}
+#content .reservation_detail_wrap .reservation_detail ul {
+	text-align:left;
+}
+
+#content .reservation_detail_wrap .reservation_detail ul li {
+    display: inline-block;
+    font-size: 25px;
+	font-weight: 600;
+    color: #B4B0B0;
+}
+
+#content .reservation_detail_wrap .reservation_detail li:first-child {
+    position: relative;
+    color: #58A9B5;
+}
+
+#content .reservation_detail_wrap .reservation_detail li:first-child::after {
+    content:"";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 140px;
+    height: 5px;
+	background: #58A9B5;
+}
+
+/*예약상세보기*/
+.reservation_code_wrap {
+    width: 1060px;
+    height: 340px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 50px 75px;
+    box-sizing: border-box;
+}
+
+.reservation_code_wrap .code_left {
+    float: left;
+}
+
+.reservation_code_wrap .code_right {
+    float: right;
+    padding: 40px 0px 70px 49px;
+    border-left: 1px dotted #B4B0B0;
+    text-align: center;
+	box-sizing:border-box;
+}
+
+/*code_left*/
+.code_left .code,
+.code_left .info {
+    font-size: 20px;
+}
+
+.code_left .tag {
+    color: #7E7E7E;
+    margin-top: 30px;
+}
+
+.code_left .tit {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.code_left .money {
+    font-size: 30px;
+    font-weight: 600;
+    color: #58A9B5;
+    margin-top: 30px;
+}
+
+/*code_right*/
+.code_right h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #58A9B5;
+	margin-top: 10px;
+}
+
+.code_right p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #58A9B5;
+}
+
+.code_right button {
+    width: 110px;
+    height: 40px;
+    background-color: #DCDBDB;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px; 
+    border:none;
+	margin-top: 20px;
+}
+
+/*payment_notice*/
+.payment_notice,
+.question_wrap {
+    margin-top: 30px;
+}
+
+.payment_notice h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.payment_notice .bank_info {
+    margin-top: 20px;
+}
+
+.payment_notice .bank_info li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0 0 10px;
+}
+
+.payment_notice .bank_info li:first-child {
+    margin: 0;
+}
+
+.payment_notice .bank_info li {
+	font-size: 25px;
+    font-weight: 600;
+    color: #93CFCF;
+}
+
+.payment_notice ul:last-child {
+	margin-top: 20px;
+}
+
+.payment_notice ul:last-child li {
+    margin-top: 5px;
+    color: #7E7E7E;
+}
+
+/*question_wrap*/
+.question_wrap ul li {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 25px 43px;
+}
+
+.question_wrap .question_wrap_reply {
+    width: 1060px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 30px 40px;
+	margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.question_wrap .question_wrap_reply p {
+    font-size: 15px;
+}
+
+.question_wrap li {
+    position: relative;
+}
+
+.question_wrap li::after {
+	content:"";
+	position: absolute;
+	top: 27px;
+    right: 44px;
+    width: 24px;
+    height: 24px;
+	background: url(/html/img/icon/more2.png) no-repeat 0 0 /24px;
+}

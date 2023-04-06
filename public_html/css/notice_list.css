@@ -1,0 +1,208 @@
+
+
+/*게시판 리스트*/
+.notice_list {
+	margin: 50px 0 80px 0;
+}
+.notice_list .list {
+	border-top: 2px solid #93CFCF;
+}
+
+.notice_list .list li {
+	padding: 16px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.notice_list .list .head {
+	border-bottom: 1px solid #93CFCF;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.notice_list .list li .head > div {
+	text-align: center;
+	color: #000;
+}
+
+.notice_list .list li > div {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	color: #000;
+}
+
+.notice_list .list .title {
+	width: 600px;
+	text-align:left;
+	color: #000;
+}
+
+.notice_list .list .num {
+	width:135px;
+}
+
+.notice_list .list .writer,
+.notice_list .list .date {
+	width: 150px;
+}
+
+
+/*게시판 페이지번호*/
+.notice_list .page,
+.notice_list .bt_wrap {
+    margin-top: 50px;
+		text-align: center;
+}
+
+.notice_list .page a {
+	font-size: 18px;
+	font-weight: 400;
+	color:#7e7e7e;
+	margin-left: 10px;
+ }
+
+.notice_list .page a:first-child {
+	margin-right: 30px;
+}
+
+.notice_list .page a:last-child {
+	margin-left: 30px;
+}
+
+.notice_list .page a:nth-child(2) {
+    text-decoration: underline;
+}
+
+.notice_list .page img {
+	width: 25px;
+	height: 20px;
+}
+
+.page,
+ .bt_wrap {
+    margin-top: 50px;
+		text-align: center;
+}
+
+.page a {
+	font-size: 18px;
+	font-weight: 400;
+	color:#7e7e7e;
+	margin-left: 10px;
+ }
+
+ .page a:first-child {
+	margin-right: 30px;
+}
+
+.page a:last-child {
+	margin-left: 30px;
+}
+
+ .page a:nth-child(2) {
+    text-decoration: underline;
+}
+
+.page img {
+	width: 25px;
+	height: 20px;
+}
+
+
+/*게시판 리스트*/
+.qna_list {
+	margin: 50px 0 80px 0;
+}
+.qna_list .list {
+	border-top: 2px solid #93CFCF;
+}
+
+.qna_list .list li {
+	padding: 16px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.qna_list .list .head {
+	border-bottom: 1px solid #93CFCF;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.qna_list .list li .head > div {
+	text-align: center;
+	color: #000;
+}
+
+.qna_list .list li > div {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	color: #000;
+}
+
+.qna_list .list .title {
+	width: 455px;
+	text-align:left;
+	color: #000;
+}
+
+.qna_list .list .num {
+	width:135px;
+}
+
+.qna_list .list .writer,
+.qna_list .list .date {
+	width: 150px;
+}
+
+
+/*게시판 페이지번호*/
+.qna_list .page,
+.qna_list .bt_wrap {
+    margin-top: 50px;
+		text-align: center;
+}
+
+.qna_list .page a {
+	font-size: 18px;
+	font-weight: 400;
+	color:#7e7e7e;
+	margin-left: 10px;
+ }
+
+.qna_list .page a:first-child {
+	margin-right: 30px;
+}
+
+.qna_list .page a:last-child {
+	margin-left: 30px;
+}
+
+.qna_list .page a:nth-child(2) {
+    text-decoration: underline;
+}
+
+.qna_list .page img {
+	width: 25px;
+	height: 20px;
+}
+
+
+/*게시판 버튼*/
+.bt_wrap {
+	margin-bottom: 80px;
+}
+
+.bt_wrap input {
+	width: 180px;
+	height: 60px;
+	background: #93CFCF;
+	border-radius: 30px;
+	border:0;
+	color: #fff;
+	font-size: 20px;
+}

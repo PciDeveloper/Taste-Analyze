@@ -1,0 +1,230 @@
+/*서브페이지 카테고리메뉴*/
+#sub_category {
+    width: 1060px;
+    height: 110px;
+    background-color: #D5EAEF;
+	margin-top: 50px;
+}
+
+#sub_category .select_left {
+    float: left;
+}
+
+#sub_category .select_left ul {
+	padding: 45px 0 0 20px;
+}
+
+#sub_category .select_left ul li {
+    display: inline-block;
+    width: 95px;
+	font-size: 20px;
+	font-weight:800;
+	color: #93CFCF;
+	text-align: right;
+	margin-left:13px;
+}
+
+#sub_category .select_left ul li a {
+	font-family: 'Recipekorea';
+}
+
+#sub_category .select_left .point_txt {
+	position: relative;
+    width: 120px;
+	font-size: 30px;
+	font-weight:600;
+	color: #58A9B5;
+	text-align: left;
+}
+
+#sub_category .select_left .point_txt::after {
+	position: absolute;
+    content:"";
+    bottom: 0px;
+    left: 0;
+    width: 120px;
+    height: 4px;
+    background-color: #58A9B5;
+    border-radius: 30px;
+}
+
+/*서브페이지 필터메뉴*/
+#sub_category .select_right {
+    float: right;
+}
+
+#sub_category .select_right ul {
+	padding: 45px 45px;
+}
+
+#sub_category .select_right ul li {
+	display: inline-block;
+}
+
+/*달력*/
+.ui-widget-header {
+	border: none !important;
+	background: #d5eaef !important;
+}
+
+.ui-widget-content {
+	border: 2px solid #f2f2f2 !important;
+	background: #fff !important;
+	}
+
+.ui-icon {
+	width: 0;
+	height: 0;
+}
+
+.ui-datepicker-title {
+	color: #000;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	background:   url(/img/icon/prev.png) no-repeat 50% 50% /20px !important;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	background: url(/img/icon/next.png) no-repeat 50% 50% /20px !important;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span  {
+	display: none;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid #f2f2f2  !important;;
+    background: none  !important;;
+    font-weight:400  !important;;
+    color: #acadac  !important;;
+}
+
+#sub_category .select_right #select {
+	width: 60px;
+    background: #fff url(/img/icon/select.png) no-repeat 90% 50% /12px;
+	border: none;
+	border-radius: 30px;
+	padding: 5px 3px;
+	margin-left: 10px;
+	color: #7E7E7E;
+	appearance: none;
+	box-sizing: border-box;
+}
+
+#sub_category .select_right input {
+	width: 80px;
+	border: none;
+	border-radius: 30px;
+	padding: 5px 3px;
+	color: #7E7E7E;
+	appearance: none;
+	box-sizing: border-box;
+}
+
+#sub_category .select_right li img {
+	margin-left: 10px;
+    vertical-align: top;	
+}
+
+#sub_category .select_right button {
+	border: none;
+	background: transparent;
+}
+
+#sub_category .select_right #select::-ms-expand {
+	display: none;
+}
+
+#sub_category .select_right #select option {
+	margin-left: 10px;
+	border: 1px solid #7e7e7e;
+}
+
+/*category_price*/
+#category_price {
+    margin: 50px 0 80px 0 ;
+}
+
+#category_price .price_wrap_sub h3 {
+    font-size: 25px;
+}
+
+#category_price .price_wrap_sub ul {
+	text-align: center;
+}
+#category_price .price_wrap_sub ul li {
+    display: inline-block;
+	width: 230px;
+	text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#category_price .price_wrap_sub ul li:nth-child(1,5) {
+    margin-left: 0;
+}
+
+#category_price .price_wrap_sub ul li a > div {
+    width: 230px;
+    height: 170px;
+    overflow: hidden;
+}
+
+#category_price .price_wrap_sub ul img {
+    width: 230px;
+    height: 170px;
+    transform:scale(1);
+    transition:.3s;
+}
+
+#category_price .price_wrap_sub ul img:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+#category_price .price_wrap_sub .tag {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7E7E7E;
+    margin-top: 10px;
+}
+
+#category_price .price_wrap_sub .title {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 900;
+    color: #373737;
+    line-height: 24px;
+}
+
+#category_price .price_wrap_sub .price1,
+#category_price .price_wrap_sub .price2 {
+    display: inline-block;
+}
+
+#category_price .price_wrap_sub .price1 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #373737;
+}
+
+#category_price .price_wrap_sub .price2 {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #B4B0B0;
+    text-decoration: line-through;
+}
+
+#category_price .price_wrap_sub li .heart {
+    width: 20px;
+    height: 18px;
+    margin: 0 0 0 50px ;
+}

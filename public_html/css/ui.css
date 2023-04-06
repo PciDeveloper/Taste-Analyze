@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/** PassWord Layer **/
+.PassLayer{width:300px;margin:0px;padding:0px;}
+.PassLayer td.bg_top{height:28px;background:url(/image/layer/ly_bg_t.gif) repeat-x;}
+.PassLayer td.bg_left{width:30px;background:url(/image/layer/ly_bg_l.gif) repeat-y;}
+.PassLayer td.bg_right{width:30px;background:url(/image/layer/ly_bg_r.gif) repeat-y;}
+.PassLayer td.bg_btm{height:28px;background:url(/image/layer/ly_bg_b.gif) repeat-x;}
+.PassLayer td input.lbox{height:17px;border:1px solid #ccc;color:#666;font-size:11px;}
+.PassLayer h2{margin-bottom:15px;}
+.PassLayer dl{margin-top:3px;width:200px;height:35px;float:left;}
+.PassLayer dl dt{float:left;width:65px;margin-top:5px;}
+.PassLayer div.line{background:#fff;height:15px;width:253px;border-bottom:1px solid #d9d9d9;margin-bottom:20px;}

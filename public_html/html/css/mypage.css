@@ -1,0 +1,439 @@
+/*유저설정영역*/
+#content .user_setting {
+    width: 1060px;
+    height: 170px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 50px 50px 0 40px;
+    box-sizing: border-box;
+}
+
+/*유저설정영역-프로필*/
+#content .user_setting .left_setting {
+    float: left;
+}
+
+#content .user_setting .left_setting > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#content .user_setting .left_setting > img,
+#content .user_setting .left_setting > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#content .user_setting .left_setting > div {
+    margin-left: 20px;
+}
+
+#content .user_setting .left_setting p:first-child {
+	position: relative;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content .user_setting .left_setting p:last-child{
+    position: relative;
+    font-size:15px;
+    color: #7e7e7e;
+}
+
+#content .user_setting .left_setting p:first-child::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: -45px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #DCDBDB url(html/img/icon/pencil.png) no-repeat 55% 50% /10px;
+}
+
+/*유저설정영역-프로필설정영역*/
+#content .user_setting .right_setting {
+    float: right;
+}
+
+#content .user_setting .right_setting ul {
+	margin-top: 15px;
+}
+
+#content .user_setting .right_setting ul li{
+    display: inline-block;
+	margin-left: 8px;
+}
+
+#content .user_setting .right_setting ul li input {
+    border:0;
+    background: #93CFCF;
+	padding: 10px 25px;
+	border-radius: 30px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+}
+
+/*mybooking_wrap*/
+#content .mybooking_wrap {
+	position: relative;
+}
+
+#content .mybooking_wrap .booking_item span {
+	font-size: 15px;
+}
+
+#content .mybooking_wrap .mybooking {
+    margin-top: 80px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #B4B0B0;
+}
+
+#content .mybooking_wrap .mybooking {
+	width: 1060px;
+}
+#content .mybooking_wrap .mybooking ul {
+	text-align:left;
+}
+
+#content .mybooking_wrap .mybooking ul li {
+    display: inline-block;
+    font-size: 25px;
+	font-weight: 600;
+    color: #B4B0B0;
+}
+
+#content .mybooking_wrap .mybooking li:first-child {
+    position: relative;
+    color: #58A9B5;
+}
+
+#content .mybooking_wrap .mybooking li:first-child::after {
+    content:"";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 95px;
+    height: 5px;
+	background: #58A9B5;
+}
+
+/*나의예약*/
+.mybooking_wrap .booking_all {
+	position:absolute;
+	top: 14px;
+	right: 0;
+}
+
+.mybooking_wrap .booking_all ul li {
+    display: inline-block;
+    margin-left: 5px;
+	font-size: 15px;
+    color: #7E7E7E;
+}
+
+/*예약과정*/
+.mybooking_wrap .booking_process {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mybooking_wrap .booking_process ul {
+	position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 100px;
+    background: #93CFCF;
+    border-radius: 50%;
+    padding-top: 53px;
+	box-sizing: border-box;
+}
+
+.mybooking_wrap .booking_process ul:after {
+    content: "";
+    position: absolute;
+    top: 83px;
+    right: -70px;
+	width: 48px;
+	height: 24px;
+    background: url(html/img/icon/process.png) no-repeat 0 0 /cover;
+}
+
+.mybooking_wrap .booking_process ul:first-child {
+    margin-left: 20px;
+}
+
+.mybooking_wrap .booking_process ul:last-child:after {
+	display: none;
+}
+
+/*나의예약 상세리스트*/
+.booking_list_wrap {
+	width: 1060px;
+    margin-top: 80px;
+}
+
+.booking_list_wrap .booking {
+    margin-top: 30px;
+	stext-align:center;
+}
+
+.booking > div {
+    display: inline-block;
+    vertical-align: middle;
+	width: 200px;
+}
+
+.booking_list_wrap .booking_img {
+    width: 155px;
+}
+
+.booking_list_wrap .booking_img img {
+    width: 155px;
+    height: 120px;
+}
+
+.booking_list_wrap .booking_list {
+    width: 530px;
+	text-align:left;
+}
+
+.booking_list_wrap .booking_list p {
+    font-size: 22px;
+	margin: 0 0 0 30px;
+}
+
+.booking_list_wrap .booking_list .booking_icon {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.booking_list_wrap .booking_icon > div ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.booking_list_wrap .booking_icon > div ul:first-child li {
+	margin-top: 10px;
+}
+
+.booking_list_wrap .booking_icon .booking_icon_txt li {
+    padding: 3px 0;
+}
+
+/*상태버튼*/
+.booking_list_wrap .booking_bt {
+    width:150px;
+	text-align: center;
+}
+
+.booking_list_wrap .booking_bt button {
+    width: 100px;
+    height: 40px;
+    background-color: #93CFCF;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+	margin-top: 8px;
+}
+
+.booking_bt ul li {
+    display: block;
+}
+
+/*나의리뷰*/
+.booking_reiew_wrap {
+	width: 1060px;
+    margin-top: 80px;
+}
+.booking_review {
+	width: 1060px;
+    margin-top: 80px;
+}
+
+.booking_review .booking_img,
+.booking_review .booking_list,
+.booking_review .booking_icon,
+.booking_review .booking_reivew_bt {
+	width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.booking_review .booking_img {
+    width: 155px;
+}
+
+.booking_review .booking_img img {
+    width: 155px;
+    height: 120px;
+}
+
+.booking_review .booking_list {
+    width: 530px;
+}
+
+.booking_review .booking_list p {
+    font-size: 22px;
+	margin: 0 0 0 30px;
+}
+
+.booking_review .booking_list .booking_icon {
+    width: 190px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.booking_review .booking_icon > div ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.booking_review .booking_icon .booking_icon_txt li {
+    padding: 3px 0;
+}
+
+/*상태버튼*/
+.booking_list_wrap .booking_bt {
+    width:150px;
+	text-align: center;
+}
+
+.booking_list_wrap .booking_bt button {
+    width: 100px;
+    height: 40px;
+    background-color: #93CFCF;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+	margin-top: 8px;
+}
+
+.booking_review .booking_bt ul li {
+    display: block;
+}
+
+/*상태버튼*/
+.booking_review .booking_reivew_bt {
+    width:150px;
+	text-align: center;
+}
+
+.booking_review .booking_reivew_bt button {
+    width: 100px;
+    height: 40px;
+    background-color: #93CFCF;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+	margin-top: 8px;
+}
+
+.booking_review .booking_reivew_bt ul li {
+    display: block;
+}
+
+
+.booking_review .booking_reivew_bt .write_done {
+    background-color: #DCDBDB;
+	color:#7E7E7E;
+}
+
+/*나의리뷰답글*/
+.review_reply {
+	position: relative;
+    width: 1000px;
+    height: 140px;
+    margin-top: 30px;
+    padding: 18px 30px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.review_reply .modify_bt {
+	position: absolute;
+	top: -40px;
+	right: 20px;
+}
+
+.review_reply .modify_bt li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.review_reply .modify_bt button { 
+	border: none;
+	background: transparent;
+}
+
+.review_reply .reply_date {
+	margin-top: 10px;
+	font-size: 15px;
+	color: #7E7E7E;
+}
+
+/*나의문의*/
+.my_ask_wrap {
+    width:  1060px;
+    margin-top: 50px;
+}
+
+.my_ask_wrap .ask_img,
+.my_ask_wrap .ask_list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my_ask_wrap .ask_img {
+    width: 155px;
+}
+.my_ask_wrap .ask_img img {
+    width: 155px;
+    height: 120px;
+}
+
+.my_ask_wrap .ask_list {
+    width: 850px;
+	margin-left: 30px;
+}
+
+.my_ask_wrap .ask_list p {
+    font-size: 15px;
+	margin: 10px 0;
+}
+
+.my_ask_wrap .ask_list .ask_date {
+	font-size: 15px;
+	color: #7E7E7E;
+}
+
+.mypage_bt {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.mypage_bt a {
+	margin-left: 30px;
+}
+
+.mypage_bt a:first-child {
+	margin-left: 0;
+}

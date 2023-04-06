@@ -1,0 +1,89 @@
+/*계정정보설정*/
+.account_setting_wrap {
+    margin: 80px 0;
+}
+
+.account_setting_wrap h1 {
+    font-size:30px;
+}
+.account_setting_wrap .account_setting {
+    margin-top: 30px;
+}
+
+.account_setting_wrap .account_leave {
+    float: right;
+    font-size: 15px;
+    font-weight:600;
+    color: #7E7E7E;
+    background-color: #fff;
+    border:none;
+}
+
+.account_setting ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.account_setting .account_txt li {
+    width: 185px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+.account_setting .account_input input {
+    width: 860px;
+    height: 60px;
+    border: 2px solid #DCDBDB;
+    border-radius: 15px;
+    margin-top: 15px;
+	padding: 10px 30px;
+	box-sizing: border-box;
+}
+
+.account_setting_wrap .account_setting input::placeholder {
+    font-size: 18px;
+    color: #DCDBDB;
+}
+
+.account_setting .account_input li {
+     position: relative;
+}
+
+.account_setting .account_input .profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+
+.account_setting .account_input li button {
+    position: absolute;
+    top:20px;
+    left: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7e7e7e;
+    border:none;
+    background: transparent;
+}
+
+.account_setting_wrap .account_align {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.account_setting_wrap .account_bt {
+    width: 180px;
+    height: 60px;
+    background-color: #93CFCF;
+    border-radius: 30px;
+    border:none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}

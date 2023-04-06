@@ -1,0 +1,321 @@
+/*booking_info_wrap*/
+.booking_info_wrap .booking_info {
+	width: 1060px;
+    margin: 80px 0 30px 0 ;
+	background: #f2f2f2;
+	border-radius: 30px;
+	padding: 50px 80px;
+	box-sizing: border-box;
+}
+
+.booking_info_wrap .booking_info .booking_img,
+.booking_info_wrap .booking_info .booking_txt {
+    display: inline-block;
+	vertical-align:top;
+	width: 500px;
+}
+
+.booking_info_wrap .booking_info .booking_img,
+.booking_info_wrap .booking_info .booking_img img {
+	width: 320px;
+    height: 280px;
+}
+
+.booking_info_wrap .booking_info .booking_txt {
+	margin-left: 70px;
+}
+
+/*booking_txt  -메인설명*/
+.booking_info_wrap .booking_info .booking_txt .tag {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+
+.booking_info_wrap .booking_info .booking_txt .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+	margin-top: 10px;
+}
+
+.booking_info_wrap .booking_info .booking_txt .booking_icon {
+    margin-top: 30px;
+}
+
+.booking_info_wrap .booking_info .booking_txt .booking_icon ul li {
+    margin-top: 8px;
+}
+
+.booking_info_wrap .booking_info .booking_txt .booking_icon ul li img,
+.booking_info_wrap .booking_info .booking_txt .booking_icon ul li p {
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.booking_info_wrap .booking_info .booking_txt .booking_icon ul li p {
+    font-size: 20px;
+	font-weight: 600;
+    margin-left: 15px;
+}
+
+.reservation_info_wrap h1 {
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+/*신청정보*/
+.reservation_info_wrap {
+	width: 1060px;
+}
+
+.reservation_info_wrap .reservation_info {
+	text-align:center;
+}
+
+.reservation_info_wrap .reservation_info ul {
+	display: inline-block;
+	vertical-align: middle;
+	width: 190px;
+	height: 60px;
+	background-color: #93CFCF;
+	border-radius: 30px;
+	margin-left: 15px;
+}
+
+.reservation_info_wrap .reservation_info ul li {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 600;
+}
+
+.reservation_info_wrap .reservation_info ul li:first-child {
+	padding-top: 20px;
+}
+
+.reservation_info_wrap .reservation_info ul li:last-child {
+	padding: 15px 0 0 10px;
+}
+
+/*예약자정보*/
+.reservation_info_wrap .reservation_info,
+.reservation_info_wrap .reservation_user,
+.reservation_info_wrap .deposit_user, 
+.reservation_info_wrap .payment_info {
+	padding: 25px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.reservation_info_wrap .reservation_user ul li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+.reservation_info_wrap .reservation_user ul li:first-child {
+	width : 260px;
+	height: 55px;
+}
+
+.reservation_info_wrap .reservation_user ul input {
+	width: 780px;
+	height: 55px;
+	border: 2px solid #DCDBDB;
+	border-radius: 15px;
+	padding-left: 30px;
+}
+
+.reservation_info_wrap .reservation_user ul input::placeholder {
+	font-size: 20px;
+	color: #DCDBDB;
+
+}
+
+ /*입금자정보*/
+ .reservation_info_wrap .deposit_user h1,
+ .reservation_info_wrap .deposit_user > div {
+	 display: inline-block;
+	 vertical-align: top;
+ }
+
+ .reservation_info_wrap .deposit_user > div {
+	 margin: 8px 0 0 20px;
+	 }
+
+ .reservation_info_wrap .deposit_user ul li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+.reservation_info_wrap .deposit_user ul li:first-child {
+	width : 260px;
+	height: 55px;
+}
+
+.reservation_info_wrap .deposit_user ul input {
+	width: 780px;
+	height: 55px;
+	border: 2px solid #DCDBDB;
+	border-radius: 15px;
+}
+
+.deposit_user #deposit_info {
+	display: none;
+}
+
+.reservation_info_wrap .deposit_user ul input::placeholder {
+	font-size: 20px;
+	color: #DCDBDB;
+}
+
+.deposit_user input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;    
+    cursor: pointer;
+}
+
+.deposit_user #deposit_info + label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.deposit_user input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px; 
+    font-size: 13px;
+	z-index: 2;
+	color: #7E7E7E;	
+}
+
+.deposit_user input[type="checkbox"]:checked + label span {
+    background: url(/html/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+/*가격 및 결제정보*/
+.reservation_info_wrap .payment_notice{
+	padding: 25px 0;
+}
+
+.reservation_info_wrap .payment_info ul {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.reservation_info_wrap .payment_info ul li {
+	margin-top: 15px;
+}
+
+.reservation_info_wrap .payment_info .payname {
+	width: 945px;
+}
+
+.reservation_info_wrap .payment_info .payprice {
+	width: 110px;
+	text-align: right;
+}
+
+.reservation_info_wrap .payment_info .payprice li:first-child {
+    text-decoration: line-through;
+}
+
+.reservation_info_wrap .payment_info .payprice li:last-child {
+	color: #93CFCF;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+/*무통장입금안내*/
+.reservation_info_wrap .payment_notice .bank_info li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #93CFCF;
+}
+
+.reservation_info_wrap .payment_notice ul:last-child {
+	margin-top: 30px;
+	color: #7E7E7E;
+}
+
+.reservation_info_wrap .payment_notice ul:last-child li {
+	margin-top: 5px;
+}
+
+/*예약동의*/
+.reservation_agree {
+	margin-top: 30px;
+}
+
+.reservation_agree ul li {
+	display: block;
+	margin-top: 5px;
+}
+.reservation_agree input {
+	display: none;
+	display: blpock
+}
+
+.reservation_agree input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;    
+    cursor: pointer;
+}
+
+.reservation_agree #agree1 + label::before,
+.reservation_agree #agree2 + label::before,
+.reservation_agree #agree3 + label::before,
+.reservation_agree #agree4 + label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.reservation_agree input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px; 
+    font-size: 13px;
+	z-index: 2;
+	color: #7E7E7E;	
+}
+
+.reservation_agree input[type="checkbox"]:checked + label span {
+    background: url(/html/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+/*예약버튼*/
+.reservation_info_wrap button {
+	float: right;
+	width: 200px;
+	height: 60px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 30px;
+	background-color: #93CFCF;
+	border:none;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,67 @@
+/*회사소개-메뉴바*/
+#cheheom_info {
+    width: 1060px;
+    margin: 50px auto;  
+}
+
+#cheheom_info .cheheom_menu {
+	width: 1060px;
+	height: 110px;
+	background: #D5EAEF;
+}
+
+#cheheom_info .cheheom_menu > div {
+	 text-align: center;
+}
+
+#cheheom_info .cheheom_menu ul {
+	text-align: center;
+	padding-top: 35px;
+	}
+#cheheom_info .cheheom_menu li {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 600;
+	color: #93CFCF;
+	margin-left: 30px;
+}
+
+#cheheom_info .cheheom_menu li:nth-child(5) {
+    color: #7e7e7e;
+}
+
+/*회사소개-메뉴내용*/
+#cheheom_info .cheheom_privacy {
+	width: 1060px;
+	height: 600px;
+	text-align:left;
+	background: #f2f2f2;
+	padding: 30px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+#cheheom_info .cheheom_privacy p {
+	font-size: 15px;
+	font-weight: 600;
+	color: #7e7e7e;
+}
+
+/*이용동의스크롤바*/
+
+#cheheom_info .cheheom_privacy::-webkit-scrollbar {
+  width: 10px;
+}
+#cheheom_info .cheheom_privacy::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+#cheheom_info .cheheom_privacy::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #dcdbdb;
+}
+#cheheom_info .cheheom_privacy::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+

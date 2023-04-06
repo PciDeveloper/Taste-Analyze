@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체험넷</title>
+    <link rel="stylesheet" href="/html/css/reset.css">
+    <link rel="stylesheet" href="/html/css/index.css">
+    <link rel="stylesheet" href="/html/css/sign.css">
+    <link rel="stylesheet" href="/html/css/subpage_2.css">
+	<link rel="stylesheet" href="/html/css/product_detail.css">
+    <link rel="stylesheet" href="/html/css/booking.css">
+    <link rel="stylesheet" href="/html/css/booking_status.css">
+    <link rel="stylesheet" href="/html/css/mypage.css">
+    <link rel="stylesheet" href="/html/css/notice_list.css">
+    <link rel="stylesheet" href="/html/css/notice_view.css">
+    <link rel="stylesheet" href="/html/css/password.css">
+    <link rel="stylesheet" href="/html/css/product_detatil.css">
+    <link rel="stylesheet" href="/html/css/notice_view.css">
+    <link rel="stylesheet" href="/html/css/notice.css">
+    <link rel="stylesheet" href="/html/css/term.css">
+	<link rel="stylesheet" href="/html/css/account_setting.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="/html/js/jquery-1.12.1.min.js"></script>
+    <script src="/html/js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+   <!--헤더-->
+    <header>
+        <div id="header_wrap">
+            <div class="header">
+                <h1 class="logo">
+                    <a href="#"><img src="/html/img/icon/logo.png" alt="로고"></a>
+                </h1>
+                <!--로그인/회원가입-->
+                <div class="log_wrap">
+                    <ul>
+                        <li class="signup"><a href="#">로그인</a></li>
+                        <li class="signin"><a href="#">회원가입</a></li>
+                        <li class="kakao_info"><a href="#">카카오톡문의</a></li>
+                        <li class="booking_info"><a href="#">예약방법안내</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--컨텐츠-->
+    <div id="content">
+        <!--검색영역-->
+        <div id="search_wrap">
+            <div class="search">
+				<input type="text" placeholder="검색어를 입력해주세요.">
+            </div>
+        </div>
+        <div id="sub_category">
+            <div class="select_left">
+                <ul>
+                    <li class="point_txt"><a href="#">일상체험</a></li>
+                    <li><a href="#">취미체험</a></li>
+                    <li><a href="#">가족체험</a></li>
+                    <li><a href="#">여행체험</a></li>
+                </ul>
+            </div>
+            <div class="select_right">
+                <ul>
+					 <li>
+						<p>
+							<input type="text" name="sday" id="sday" class="date_picker has Datepicker" value>
+							~
+							<input type="text" name="eday" id="eday" class="date_picker has Datepicker" value>
+						</p>
+					</li>
+                    <li>
+                        <select name="select" id="select">
+                            <option>장소</option>
+                            <option>서울</option>
+                            <option>광주</option>
+                            <option>부산</option>
+                            <option>인천</option>
+                            <option>여수</option>
+                            <option>전주</option>
+                            <option>경주</option>
+                            <option>제주도</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="select" id="select">
+                            <option>인원</option>
+                            <option>2인이하</option>
+                            <option>4인이하</option>
+                            <option>6인이하</option>
+                            <option>8인이하</option>
+                            <option>10인이하</option>
+                        </select>
+                    </li>
+					<li>
+						<button><img src="/html/img/icon/search2.png"></button>
+					</li>
+                </ul>
+            </div>
+        </div>
+		<!--판매상품-->
+		<div id="category_price">
+			<div class="price_wrap_sub">
+				<ul>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                        
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place2.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+									<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p> 
+                      
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                     
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place2.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                     
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p> 
+                  
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p> 
+               							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                 
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                     
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                        
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                    
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                        
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                          
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                          
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                         
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                      
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<img src="/img/image/place1.png" alt="강릉">
+							</div>
+							<p class="tag">#일상#여름#바닷가</p>
+							<a href="#">
+								<p class="title">[강릉] 강릉마리나 헤밍웨이요트와 함께 시원한 요트세일링</p>                         
+							<span class="price1">56,000원</span>
+							<span class="price2">70,000원</span>
+							<img  class="heart" src="/html/img/icon/heart.png" alt="좋아요">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>   
+</body>
+</html>

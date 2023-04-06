@@ -1,0 +1,669 @@
+/*로그인회원가입*/
+.signin_wrap .signin,
+.signin_wrap2 .signin,
+.signup_wrap .signup,
+.signup_miss .miss {
+	padding: 200px 0;
+}
+
+/*가운데정렬*/
+.signin_wrap .signin > div,
+.signin_wrap2 .signin > div,
+.signup_wrap .signup > div,
+.signup_miss .miss > div {
+    vertical-align: middle;
+	text-align: center;
+}
+
+/*view*/
+.signin_wrap2 .signin .view,
+.signin_wrap .signin .view,
+.signup_wrap .signup .view,
+.signup_miss .miss .view {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    padding: 80px 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    border-radius: 30px;
+	text-align: center;
+}
+
+.signin_wrap2 .signin .view{
+    padding: 30px 50px;
+}
+
+/*  로고 마진 조절*/
+.signin_wrap .signin img,
+.signin_wrap2 .signin img,
+.signup_wrap .signup img,
+.signup_miss .miss img  {
+    margin-left: 30px;
+}
+
+
+/*회원가입-스텝1*/
+.signin_wrap .info_agree {
+    width: 400px;
+    height: 170px;
+    background-color: #fff;
+	overflow: scroll;
+	padding: 0 20px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.signin_wrap .info_agree p {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.signin_wrap .info_agree span {
+	text-align: left;
+    padding-top: 20px;
+    font-size: 11px;
+	line-height: 5px;
+}
+
+/*이용동의스크롤바*/
+.signin_wrap .info_agree::-webkit-scrollbar {
+  width: 10px;
+}
+.signin_wrap .info_agreet::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.signin_wrap .info_agree::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #dcdbdb;
+}
+.signin_wrap .info_agree::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.signin_wrap2 .signin .button_wrap .kakao_bt::before,
+.signin_wrap2 .signin .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+/*버튼모음*/
+.signin_wrap2 .signin .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signin_wrap2 .signin .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*회원가입 스텝2*/
+.signin_wrap2 .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+}
+
+.signin_wrap2 .info_wrap input:first-child {
+	margin-top: 0;
+}
+
+.signin_wrap2 .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signin_wrap2 input[type=checkbox] {
+	display:none;
+}
+
+.signin_wrap2 .agree_wrap {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.signin_wrap2 input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.signin_wrap2 #info_agree + label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.signin_wrap2 input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.signin_wrap2  input[type="checkbox"]:checked + label span {
+    background: url(/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+.signin_wrap2 .signin .button_wrap .kakao_bt::before,
+.signin_wrap2 .signin .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signin_wrap2 .signin .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signin_wrap2 .signin .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*체크박스*/
+.signin_wrap input[type="checkbox"] {
+    display: none;
+}
+
+.signin_wrap input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signin_wrap #agree_info + label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.signin_wrap input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.signin_wrap  input[type="checkbox"]:checked + label span {
+    background: url(/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+/*button_wrap*/
+.button_wrap{
+    margin-top: 20px;
+}
+
+.button_wrap a {
+    padding: 10px 20px;
+}
+
+.signup_miss .next_bt,
+.signup_miss .kakao_bt,
+.signup_miss .naver_bt,
+.signup_wrap .next_bt,
+.signup_wrap .kakao_bt,
+.signup_wrap .naver_bt,
+.signin_wrap2 .next_bt,
+.signin_wrap .next_bt,
+.signin_wrap .kakao_bt,
+.signin_wrap .naver_bt {
+    font-weight: 400;
+    color: #fff;
+    background: #93CFCF;
+    border: 1px solid #93CFCF;
+    border-radius: 100px;
+}
+
+.signup_miss .next_bt,
+.signup_wrap .next_bt,
+.signin_wrap2 .next_bt,
+.signin_wrap .next_bt {
+    display: block;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.signup_miss .kakao_bt,
+.signup_miss .naver_bt,
+.signup_wrap .kakao_bt,
+.signup_wrap .naver_bt,
+.signup_wrap .kakao_bt,
+.signin_wrap .kakao_bt,
+.signin_wrap .naver_bt {
+    position: relative;
+    display: inline-block;
+    width: 195px;
+    height: 60px;
+    font-size: 15px;
+    margin-top:10px;
+    padding-left: 35px;
+}
+
+.signin_wrap .naver_bt {
+    margin-left: 5px;
+}
+
+.signin_wrap .signin .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signin_wrap .signin .kakao_bt::before {
+	content:"";
+	position:absolute;
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signin_wrap .signin .naver_bt::before {
+	content:"";
+	position:absolute;
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*회원가입 스텝3*/
+.signin_wrap3 .info_agree {
+    width: 400px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.signin_wrap3 .info_agree p {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.signin_wrap3 .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+
+}
+
+.signin_wrap3 .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signin_wrap3 .signin .button_wrap {
+	margin-top: 90px;
+}
+
+.signin_wrap3 .signin .button_wrap .kakao_bt::before,
+.signin_wrap3 .signin .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signin_wrap3 .signin .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signin_wrap3 .signin .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*로그인 스텝1*/
+.signup_wrap .info_agree {
+    width: 400px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.signup_wrap .info_agree p {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.signup_wrap .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+}
+
+.signup_wrap .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signup_wrap .signup .button_wrap {
+	margin-top: 90px;
+}
+
+.signup_wrap .signup .button_wrap .kakao_bt::before,
+.signup_wrap .signup .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_wrap .signup .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_wrap .signup .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+.signup_wrap .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+}
+
+.signup_wrap .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signup_wrap .signup .button_wrap .kakao_bt::before,
+.signup_wrap .signup .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_wrap .signup .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_wrap .signup .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*로그인 스텝1 - 체크박스*/
+.signup_wrap input[type=checkbox] {
+	display:none;
+}
+
+.signup_wrap .agree_wrap {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.signup_wrap input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.signup_wrap #pass_log + label::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.signup_wrap input[type="checkbox"] + label span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.signup_wrap input[type="checkbox"]:checked + label span {
+    background: url(/img/icon/check.png) no-repeat 0 0 /20px;
+}
+
+.signup_wrap .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+}
+
+.signup_wrap .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signup_wrap .signin .button_wrap {
+	margin-top: 90px;
+}
+
+.signup_wrap .signin .button_wrap .kakao_bt::before,
+.signup_wrap .signin .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_wrap .signin .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_wrap .signin .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+.signup_wrap .info_wrap input {
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+}
+
+.signup_wrap .info_wrap input::placeholder {
+	color: #DCDBDB;
+	font-size: 15px;
+}
+
+.signup_wrap .signin .button_wrap .kakao_bt::before,
+.signup_wrap .signin .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_wrap .signin .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_wrap .signup .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+/*아이디찾기, 비밀번호 재설정*/
+.signup_wrap .agree_wrap {
+	float: left;
+}
+
+.signup_wrap .account_wrap {
+	float: right;
+	margin-left: 90px;
+}
+
+.signup_wrap .account_wrap ul li {
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+/*로그인실패*/
+.signup_miss .miss_txt {
+	text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.signup_miss .miss_txt img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-top: 50px;
+}
+
+/*로그인실패-버튼*/
+.signup_miss .miss .button_wrap {
+	margin-top: 70px;
+}
+
+.signup_miss .miss .button_wrap .kakao_bt::before,
+.signup_miss .miss .button_wrap .naver_bt::before  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_miss .miss .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_miss .miss .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
+
+.signup_miss .miss .button_wrap .kakao_bt::before,
+.signup_miss .miss .button_wrap .naver_bt::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.signup_miss .miss .kakao_bt::before {
+    top: 17px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/kakao.png) no-repeat 0 0 /25px;
+}
+
+.signup_miss .miss .naver_bt::before {
+    top: 19px;
+    left: 33px;
+    width: 22px;
+    height: 25px;
+    background: url(/img/icon/naver.png) no-repeat 0 0 /22px;
+}
